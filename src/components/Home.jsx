@@ -8,7 +8,7 @@ function Home() {
     <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black'>
       <div className='flex w-screen h-screen justify-center items-center'>
         <div>
-          <h1 className="text-sm font-bold text-white font-sans">PRAZER, ME CHAMO WESLEY E SOU </h1>
+          <h1 className="text-sm font-semibold font-roboto text-white font-sans">PRAZER, ME CHAMO WESLEY E SOU </h1>
           <div className='flex items-center mt-0'>
             <h1 className="font-bold text-9xl text-white">REACT </h1>
             <a href="https://www.linkedin.com/in/wesleyrenam/" target="_blank"  rel="noreferrer">
