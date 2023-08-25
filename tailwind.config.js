@@ -16,7 +16,7 @@ module.exports = {
             width: "0%",
             visibility: "hidden"
           },
-          "90%": {
+          "50%": {
             width: "47%"
           },
           "100%": {
@@ -28,7 +28,7 @@ module.exports = {
             width: "0%",
             visibility: "hidden"
           },
-          "90%": {
+          "50%": {
             width: "100%"
           },
           "100%": {

@@ -25,6 +25,7 @@ function Mobile() {
       <div className='hidden lg:flex lg:w-96 lg:justify-end lg:ml-auto md:flex'>
          <h1 className="link-underline link-underline-black font-bold text-end text-xs text-white">TENHO 21 ANOS, CURSANDO CIÊNCIA DA COMPUTAÇÃO E COM 1 ANO DE EXPERIÊNCIA COM PROJETOS PESSOAIS NA TRYBE. </h1>
       </div>
+      <h1 className="text-xs ml-auto mt-1 flex justify-end font-semibold text-right font-roboto text-white font-sans w-72 ">TENHO 21 ANOS, CURSANDO CIÊNCIA DA COMPUTAÇÃO E COM 1 ANO DE EXPERIÊNCIA COM PROJETOS PESSOAIS NA TRYBE.</h1>
     </div>
     
   </div>
