@@ -7,8 +7,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Roboto Slab', ...defaultTheme.fontFamily.sans],
-        'roboto': ['Josefin'],
+        'sans': ['Lexend Deca', ...defaultTheme.fontFamily.sans],
+        'roboto': ['Lexend Deca'],
+        'lexend': 'Lexend Deca, sans-serif'
+      },
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
       },
       keyframes: {
         typing: {
