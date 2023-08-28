@@ -10,6 +10,7 @@ import type from '../icons/type.svg'
 import docker from '../icons/docker.svg'
 import git from '../icons/git.svg'
 import vscode from '../icons/vscode.svg'
+import sql from '../icons/sql.svg'
 
 function About() {
   return(
@@ -49,11 +50,11 @@ function About() {
               <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
                 <img src={css} alt="" />
                 <h1 className='text-center text-white text-sm'>CSS3</h1>
-              </div>
+              </div>  
               <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={html} alt="" />
-                <h1 className='text-center text-white text-sm'>HTML5</h1>
-              </div>   
+                <img src={sql} alt="" />
+                <h1 className='text-center text-white text-sm'>MYSQL</h1>
+              </div>  
             </div>
             <div className='flex flex-wrap justify-center mt-1'>
               <h1 className='text-center text-white text-4xl w-full mt-2 font-bold'>FERRAMENTAS</h1>
