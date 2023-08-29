@@ -16,7 +16,7 @@ function Projects() {
                 <img src={githubIcon} alt='githubIcon' className='w-12 mb-3 mr-6 lg:w-20  lg:mt-5 md:mt-5 hover:scale-125 min-[375px]:mr-3 ease-in-out duration-300'/>
               </a>
             </div>
-            <h3 className='text-left text-gray-100 text-sm'>PROJETO PARA MOSTRAR O MEU AMOR PELO STUDIO GHIBLI</h3>
+            <h2 className='text-left text-gray-100 text-sm'>PROJETO PARA MOSTRAR O MEU AMOR PELO STUDIO GHIBLI</h2>
           </div>
         </a>
         <a href="https://ghibli-project-9eg6ovxt5-wesleyrenam.vercel.app/home" target="_blank"  rel="noreferrer" className='2xl:scale-[2.0] 2xl:hover:scale-[2.1] xl:scale-[1.6] xl:hover:scale-[1.7] lg:scale-[1.3] lg:hover:scale-[1.4] ease-in-out duration-300 lg:hover:border rounded-xl'>
@@ -28,7 +28,7 @@ function Projects() {
                 <img src={githubIcon} alt='githubIcon' className='w-12 mb-3 mr-6 lg:w-20  lg:mt-5 md:mt-5 hover:scale-125 ease-in-out min-[375px]:mr-3 duration-300'/>
               </a>
             </div>
-            <h3 className='text-left text-gray-100 text-sm'>PROJETO PARA MOSTRAR O MEU AMOR PELO STUDIO GHIBLI</h3>
+            <h2 className='text-left text-gray-100 text-sm'>PROJETO PARA MOSTRAR O MEU AMOR PELO STUDIO GHIBLI</h2>
           </div>
         </a>
       </div>
@@ -43,7 +43,7 @@ function Projects() {
                 <img src={githubIcon} alt='githubIcon' className='w-12 mb-3 mr-6 lg:w-20 lg:mt-5 md:mt-5 hover:scale-125 ease-in-out min-[375px]:mr-3 duration-300'/>
               </a>
             </div>
-            <h3 className='text-left text-gray-100 text-sm'>PROJETO PARA MOSTRAR O MEU AMOR PELO STUDIO GHIBLI</h3>
+            <h2 className='text-left text-gray-100 text-sm'>PROJETO PARA MOSTRAR O MEU AMOR PELO STUDIO GHIBLI</h2>
           </div>
         </a>
         <a href="https://ghibli-project-9eg6ovxt5-wesleyrenam.vercel.app/home" target="_blank"  rel="noreferrer" className='2xl:scale-[2.0] 2xl:hover:scale-[2.1] xl:scale-[1.6] xl:hover:scale-[1.7] lg:scale-[1.3] lg:hover:scale-[1.4] ease-in-out duration-300 lg:hover:border rounded-xl'>
@@ -55,7 +55,7 @@ function Projects() {
                 <img src={githubIcon} alt='githubIcon' className='w-12 mb-3 mr-6 lg:w-20  lg:mt-5 md:mt-5 hover:scale-125 ease-in-out min-[375px]:mr-3 duration-300'/>
               </a>
             </div>
-            <h3 className='text-left text-gray-100 text-sm'>PROJETO PARA MOSTRAR O MEU AMOR PELO STUDIO GHIBLI</h3>
+            <h2 className='text-left text-gray-100 text-sm'>PROJETO PARA MOSTRAR O MEU AMOR PELO STUDIO GHIBLI</h2>
           </div>
         </a>
       </div>
