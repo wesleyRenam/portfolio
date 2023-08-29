@@ -14,70 +14,17 @@ import sql from '../icons/sql.svg'
 
 function About() {
   return(
-    <div className='h-[200vh] w-auto animate-text Pastel bg-gradient-to-tr from-violet-500 to-orange-300'>  
+    <div className='h-screen w-auto animate-text Pastel bg-gradient-to-tr from-violet-500 to-orange-300'>  
       <div className='animate-text grid grid-cols-1 place-items-center w-auto h-screen p-4 lg:grid-cols-1'>
-      <div className='flex flex-col xl:ml-24'>
-        <h1 className='text-center xl:hidden text-white text-4xl w-full mb-3 font-bold'>SOBRE MIM</h1>
-        <div className='flex items-center justify-center'>
-          <img src={perfil} alt='Minha foto de perfil' className='shadow-xl rounded-xl w-2/5 drop-shadow-2xl' />
-          <div className='ml-3 '>
-            <h2 className='text-red-600 text-lg font-semibold text-left mb-2'>Sobre Mim</h2>
-            <h1 className='text-white text-xs lg:text-4xl font-bold'> ME CHAMO <span>WESLEY RENAM  </span></h1>
-            <h2 className='text-white text-xs lg:text-2xl font-bold'>GRADUANDO EM CIÊNCIA DA COMPUTAÇÃO E FORMANDO EM DESENVOLVIMENTO FULLSTACK PELA TRYBE.</h2>
-            <h2 className='text-white text-xs lg:text-2xl font-bold'>1 ANO DE EXPERIÊNCIA COM DESENVOLVIMENTO DE SOFTWARE.</h2>
-          </div>
-          {/* <h3 className='text-center lg:text-left text-white text-xs lg:text-4xl min-[414px]:text-sm w-4/5 mt-3 lg:ml-2'>GRADUANDO EM CIÊNCIA DA COMPUTAÇÃO E FORMANDO EM DESENVOLVIMENTO FULLSTACK PELA TRYBE, 1 ANO DE EXPERIÊNCIA COM PROJETOS RESPONSIVOS E ESCALAVÉIS. </h3> */}
-        </div>
-        </div>
-        <div className='grid grid-cols-1 xl:mr-2 place-items-center xl:scale-[1.4] md:scale-[1.2]'>
-          <div>
-            <h1 className='text-center text-white text-4xl w-full mt-2 font-bold'>EXPERIÊNCIAS</h1>
-            <div className='flex flex-wrap justify-center mt-1 '>
-              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={react} alt="" className='' />
-                <h1 className='text-center text-white text-lg'>REACT</h1>
-              </div>
-              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={js} alt="" />
-                <h1 className='text-center text-white text-lg'>JAVASCRIPT</h1>
-              </div>
-              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={type} alt="" />
-                <h1 className='text-center text-white text-lg'>TYPESCRIPT</h1>
-              </div>
-              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={node} alt="" />
-                <h1 className='text-center text-white text-sm'>NODE JS</h1>
-              </div>
-              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={tailwind} alt="" />
-                <h1 className='text-center text-white text-sm'>TAILWIND</h1>
-              </div>
-              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={css} alt="" />
-                <h1 className='text-center text-white text-sm'>CSS3</h1>
-              </div>  
-              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={sql} alt="" />
-                <h1 className='text-center text-white text-sm'>MYSQL</h1>
-              </div>  
-            </div>
-            <div className='flex flex-wrap justify-center mt-1'>
-              <h1 className='text-center text-white text-4xl w-full mt-2 font-bold'>FERRAMENTAS</h1>
-              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={docker} alt="" className='' />
-                <h1 className='text-center text-white text-xl'>DOCKER</h1>
-              </div>
-              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={git} alt="" className='' />
-                <h1 className='text-center text-white text-xl'>GIT</h1>
-              </div>
-              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
-                <img src={vscode} alt="" className='' />
-                <h1 className='text-center text-white text-xl'>VSCODE</h1>
-              </div>
-            </div> 
-          </div>
+        <div className='w-full h-screen grid place-items-center m-0 lg:grid-cols-2'>
+          <div className=''>
+            <p className='text-base text-center text-teal-200 mb-2 font-montserrat'>Sobre Mim</p>
+            <h1 className='text-4xl text-center font-bold text-white'>ME CHAMO <span className='text-teal-200'>WESLEY RENAM</span></h1>
+            <p className='text-base text-center text-teal-200 font-montserrat'>21 Anos</p>
+            <h2 className='text-xl text-center text-white my-2'>FULLSTACK REACT E NODEJS DEVELOPER</h2>
+            <p className='text-sm font-semibold text-center font-montserrat text-white'>Graduando em ciência da computação e formando em fullstack developer pela trybe, contendo 1 ano de experiência com desenvolvimento de softwares responsivos, escaláveis e com alto desempenho</p>
+            <img src={perfil} alt='Minha foto de perfil' className='border mt-4 shadow-xl rounded-xl drop-shadow-2xl'/>
+          </div>          
         </div>
       </div>
     </div>

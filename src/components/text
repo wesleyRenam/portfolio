@@ -1,0 +1,50 @@
+<div className='grid grid-cols-1 xl:mr-2 place-items-center xl:scale-[1.4] md:scale-[1.2]'>
+          <div>
+            <h1 className='text-center text-white text-4xl w-full mt-2 font-bold'>EXPERIÊNCIAS</h1>
+            <div className='flex flex-wrap justify-center mt-1 '>
+              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+                <img src={react} alt="" className='' />
+                <h1 className='text-center text-white text-lg'>REACT</h1>
+              </div>
+              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+                <img src={js} alt="" />
+                <h1 className='text-center text-white text-lg'>JAVASCRIPT</h1>
+              </div>
+              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+                <img src={type} alt="" />
+                <h1 className='text-center text-white text-lg'>TYPESCRIPT</h1>
+              </div>
+              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+                <img src={node} alt="" />
+                <h1 className='text-center text-white text-sm'>NODE JS</h1>
+              </div>
+              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+                <img src={tailwind} alt="" />
+                <h1 className='text-center text-white text-sm'>TAILWIND</h1>
+              </div>
+              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+                <img src={css} alt="" />
+                <h1 className='text-center text-white text-sm'>CSS3</h1>
+              </div>  
+              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+                <img src={sql} alt="" />
+                <h1 className='text-center text-white text-sm'>MYSQL</h1>
+              </div>  
+            </div>
+            <div className='flex flex-wrap justify-center mt-1'>
+              <h1 className='text-center text-white text-4xl w-full mt-2 font-bold'>FERRAMENTAS</h1>
+              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+                <img src={docker} alt="" className='' />
+                <h1 className='text-center text-white text-xl'>DOCKER</h1>
+              </div>
+              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+                <img src={git} alt="" className='' />
+                <h1 className='text-center text-white text-xl'>GIT</h1>
+              </div>
+              <div className='m-1 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+                <img src={vscode} alt="" className='' />
+                <h1 className='text-center text-white text-xl'>VSCODE</h1>
+              </div>
+            </div> 
+          </div>
+        </div>

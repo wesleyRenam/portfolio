@@ -9,7 +9,8 @@ module.exports = {
       fontFamily: {
         'sans': ['Lexend Deca', ...defaultTheme.fontFamily.sans],
         'roboto': ['Lexend Deca'],
-        'lexend': 'Lexend Deca, sans-serif'
+        'lexend': 'Lexend Deca, sans-serif',
+        'montserrat': ['montserrat', 'sans-serif'],
       },
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
