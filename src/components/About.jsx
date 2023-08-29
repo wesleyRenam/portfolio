@@ -14,8 +14,8 @@ import sql from '../icons/sql.svg'
 
 function About() {
   return(
-    <div className='h-screen w-auto animate-text Pastel bg-gradient-to-tr from-violet-500 to-orange-300'>  
-      <div className='animate-text grid grid-cols-1 place-items-center w-auto h-screen p-4 lg:grid-cols-2'>
+    <div className='h-[200vh] w-auto animate-text Pastel bg-gradient-to-tr from-violet-500 to-orange-300'>  
+      <div className='animate-text grid grid-cols-1 place-items-center w-auto h-screen p-4 lg:grid-cols-1'>
       <div className='flex flex-col xl:ml-24'>
         <h1 className='text-center xl:hidden text-white text-4xl w-full mb-3 font-bold'>SOBRE MIM</h1>
         <div className='flex items-center justify-center'>
@@ -23,8 +23,8 @@ function About() {
           <div className='ml-3 '>
             <h2 className='text-red-600 text-lg font-semibold text-left mb-2'>Sobre Mim</h2>
             <h1 className='text-white text-xs lg:text-4xl font-bold'> ME CHAMO <span>WESLEY RENAM  </span></h1>
-            <h3 className='text-white text-xs lg:text-2xl font-bold'>GRADUANDO EM CIÊNCIA DA COMPUTAÇÃO E FORMANDO EM DESENVOLVIMENTO FULLSTACK PELA TRYBE.</h3>
-            <h3 className='text-white text-xs lg:text-2xl font-bold'>1 ANO DE EXPERIÊNCIA COM DESENVOLVIMENTO DE SOFTWARE.</h3>
+            <h2 className='text-white text-xs lg:text-2xl font-bold'>GRADUANDO EM CIÊNCIA DA COMPUTAÇÃO E FORMANDO EM DESENVOLVIMENTO FULLSTACK PELA TRYBE.</h2>
+            <h2 className='text-white text-xs lg:text-2xl font-bold'>1 ANO DE EXPERIÊNCIA COM DESENVOLVIMENTO DE SOFTWARE.</h2>
           </div>
           {/* <h3 className='text-center lg:text-left text-white text-xs lg:text-4xl min-[414px]:text-sm w-4/5 mt-3 lg:ml-2'>GRADUANDO EM CIÊNCIA DA COMPUTAÇÃO E FORMANDO EM DESENVOLVIMENTO FULLSTACK PELA TRYBE, 1 ANO DE EXPERIÊNCIA COM PROJETOS RESPONSIVOS E ESCALAVÉIS. </h3> */}
         </div>
