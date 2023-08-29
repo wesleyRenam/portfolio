@@ -11,6 +11,7 @@ module.exports = {
         'roboto': ['Lexend Deca'],
         'lexend': 'Lexend Deca, sans-serif',
         'montserrat': ['montserrat', 'sans-serif'],
+        'lato': ['lato', 'sans-serif'],
       },
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',

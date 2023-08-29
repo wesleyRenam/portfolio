@@ -11,7 +11,7 @@ function Projects() {
           <div className='max-w-sm tracking-tight shadow-3xl rounded-xl p-4'>
             <img src={ghibli} alt="" className='rounded-xl drop-shadow-2xl' />
             <div className='flex items-end'>
-              <h1 className='text-5xl mt-4 text-left font-bold text-white'>GHIBLI LIST PROJECT</h1>
+              <h1 className='text-5xl mt-4 text-left font-bold text-white font-lato'>GHIBLI LIST PROJECT</h1>
               <a href="https://github.com/wesleyRenam" target="_blank"  rel="noreferrer">
                 <img src={githubIcon} alt='githubIcon' className='w-12 mb-3 mr-6 lg:w-20  lg:mt-5 md:mt-5 hover:scale-125 min-[375px]:mr-3 ease-in-out duration-300'/>
               </a>
@@ -23,7 +23,7 @@ function Projects() {
           <div className='max-w-sm tracking-tight shadow-3xl rounded-xl p-4'>
             <img src={ghibli} alt="" className='rounded-xl drop-shadow-2xl' />
             <div className='flex items-end'>
-              <h1 className='text-5xl mt-4 text-left font-bold text-white'>GHIBLI LIST PROJECT</h1>
+              <h1 className='text-5xl mt-4 text-left font-bold text-white font-lato'>GHIBLI LIST PROJECT</h1>
               <a href="https://github.com/wesleyRenam" target="_blank"  rel="noreferrer">
                 <img src={githubIcon} alt='githubIcon' className='w-12 mb-3 mr-6 lg:w-20  lg:mt-5 md:mt-5 hover:scale-125 ease-in-out min-[375px]:mr-3 duration-300'/>
               </a>
@@ -38,7 +38,7 @@ function Projects() {
           <div className='max-w-sm tracking-tight shadow-3xl rounded-xl p-4'>
             <img src={ghibli} alt="" className='rounded-xl drop-shadow-2xl' />
             <div className='flex items-end'>
-              <h1 className='text-5xl mt-4 text-left font-bold text-white'>GHIBLI LIST PROJECT</h1>
+              <h1 className='text-5xl mt-4 text-left font-bold text-white font-lato'>GHIBLI LIST PROJECT</h1>
               <a href="https://github.com/wesleyRenam" target="_blank"  rel="noreferrer">
                 <img src={githubIcon} alt='githubIcon' className='w-12 mb-3 mr-6 lg:w-20 lg:mt-5 md:mt-5 hover:scale-125 ease-in-out min-[375px]:mr-3 duration-300'/>
               </a>
@@ -50,7 +50,7 @@ function Projects() {
           <div className='max-w-sm tracking-tight shadow-3xl rounded-xl p-4'>
             <img src={ghibli} alt="" className='rounded-xl drop-shadow-2xl' />
             <div className='flex items-end'>
-              <h1 className='text-5xl mt-4 text-left font-bold text-white'>GHIBLI LIST PROJECT</h1>
+              <h1 className='text-5xl mt-4 text-left font-bold text-white font-lato'>GHIBLI LIST PROJECT</h1>
               <a href="https://github.com/wesleyRenam" target="_blank"  rel="noreferrer">
                 <img src={githubIcon} alt='githubIcon' className='w-12 mb-3 mr-6 lg:w-20  lg:mt-5 md:mt-5 hover:scale-125 ease-in-out min-[375px]:mr-3 duration-300'/>
               </a>
