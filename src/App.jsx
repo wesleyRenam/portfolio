@@ -1,7 +1,6 @@
 import './App.css';
-import Home from './components/Home'
 import Mobile from './components/Mobile'
-import Projects from './components/Project2'
+import Projects from './components/Projects'
 import About from './components/About'
 
 function App() {
