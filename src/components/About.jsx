@@ -23,7 +23,8 @@ function About() {
               </a>
             </div>
           </div>          
-          <img src={perfil} alt='Minha foto de perfil' className='border mt-4 shadow-xl rounded-xl drop-shadow-2xl w-4/5 xl:w-full'/>
+          <img src={perfil} alt='Minha foto de perfil' className='mt-4 shadow-xl rounded-xl drop-shadow-2xl w-4/5 xl:w-full hover:border-white hover:shadow-white duration-300 ease-in-out'
+          />
         </div>
       </div>
       <Skills />

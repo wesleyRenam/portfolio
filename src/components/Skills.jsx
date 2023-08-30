@@ -13,9 +13,9 @@ import sql from '../icons/sql.svg'
 
 function Skills() {
   return(
-    <div className='grid grid-cols-1 place-items-center '>
+    <div className='grid grid-cols-1 place-items-center xl:-mt-32'>
       <div>
-        <h1 className='text-center text-white text-4xl w-full mt-2 font-lato font-bold xl:text-8xl'>EXPERIÊNCIAS</h1>
+        <h1 className='text-center text-white text-5xl mt-4 w-full font-lato font-bold xl:text-8xl'>EXPERIÊNCIAS</h1>
         <div className='flex flex-wrap justify-center xl:my-10 '>
           <div className='m-1 xl:m-2 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
             <img src={react} alt="React Icon" className='xl:w-36' />
@@ -44,10 +44,11 @@ function Skills() {
           <div className='m-1 xl:m-2 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
             <img src={sql} alt="MySql Icon" className="xl:w-36" />
             <h1 className='text-center text-white text-sm font-montserrat'>MYSQL</h1>
-          </div>  
+          </div> 
+            
         </div>
-        <div className='flex flex-wrap justify-center mt-1  xl:my-10 '>
-          <h1 className='text-center text-white text-4xl w-full mt-2 font-lato font-bold xl:text-8xl'>FERRAMENTAS</h1>
+        <div className='flex flex-wrap justify-center mt-1  '>
+          <h1 className='text-center text-white text-5xl w-full mt-2 font-lato font-bold xl:text-8xl '>FERRAMENTAS</h1>
           <div className='m-1 xl:m-2 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
             <img src={docker} alt="Dcoker Icon" className="xl:w-36" />
             <h1 className='text-center text-white text-xl font-montserrat'>DOCKER</h1>
