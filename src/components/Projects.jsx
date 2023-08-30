@@ -1,6 +1,5 @@
 import React from 'react';
-import ghibli2 from '../img/ghibli2.png';
-import ghibli from '../img/ghibli.png';
+import ghibli from '../img/ghibli.webp';
 import githubIcon from '../img/square-github.svg';
 
 function Projects() {
