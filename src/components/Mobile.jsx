@@ -10,7 +10,7 @@ function Mobile() {
   <div className='flex flex-col items-start lg:scale-150 md:scale-120'>
     <h1 className="animate-typingMobile lg:animate-typing md:animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white text-smp font-semibold text-white font-sans">PRAZER, ME CHAMO WESLEY RENAM E SOU</h1>
       <div className='flex items-center'>
-        <h1 className="font-bold text-6xl lg:text-9xl md:text-9xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">REACT </h1>
+        <h1 className="font-bold text-6xl lg:text-9xl md:text-9xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">FRONT </h1>
         <a href="https://www.linkedin.com/in/wesleyrenam/" target="_blank"  rel="noreferrer">
           <img src={linkedinIcon} alt='linkedinIcon' className='w-8 lg:w-20 ml-4 lg:mt-5 md:mt-5 hover:scale-125 ease-in-out duration-300'/>
         </a>

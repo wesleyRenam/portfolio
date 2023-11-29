@@ -12,7 +12,7 @@ function About() {
           <div className='xl:order-last xl:ml-4'>
             <p className='text-base text-center xl:text-left font-semibold text-teal-200 mb-2 font-montserrat xl:text-lg m-0'>Sobre Mim</p>
             <h1 className='text-4xl text-center font-bold xl:text-left text-white font-lato xl:text-5xl'>ME CHAMO <span className='text-teal-200'>WESLEY RENAM</span></h1>
-            <h2 className='text-xl text-center text-white xl:text-left my-2 font-lato xl:text-2xl'>FULLSTACK REACT E NODEJS DEVELOPER</h2>
+            <h2 className='text-xl text-center text-white xl:text-left my-2 font-lato xl:text-2xl'>FULLSTACK REACT, VUEJS E NODEJS DEVELOPER</h2>
             <p className='text-sm text-center font-montserrat text-white xl:text-left xl:text-lg '>Graduando em ciência da computação e formando em fullstack developer pela trybe, contendo 1 ano de experiência com desenvolvimento de softwares responsivos, escaláveis e com alto desempenho tenho um prazer enorme em resolver problemas e aprender novas tecnologias.</p>
             <div className='flex mt-2 justify-around'>
               <a href="https://www.linkedin.com/in/wesleyrenam/" target="_blank"  rel="noreferrer">

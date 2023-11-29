@@ -10,10 +10,11 @@ import docker from '../icons/docker.svg'
 import git from '../icons/git.svg'
 import vscode from '../icons/vscode.svg'
 import sql from '../icons/sql.svg'
+import vue from '../icons/vuejs.svg'
 
 function Skills() {
   return(
-    <div className='grid grid-cols-1 place-items-center xl:-mt-32'>
+    <div className='grid grid-cols-1 place-items-center '>
       <div>
         <h1 className='text-center text-white text-5xl mt-4 w-full font-lato font-bold xl:text-8xl'>EXPERIÊNCIAS</h1>
         <div className='flex flex-wrap justify-center xl:my-10 '>
@@ -21,6 +22,7 @@ function Skills() {
             <img src={react} alt="React Icon" className='xl:w-36' />
             <h1 className='text-center text-white text-lg font-montserrat'>REACT</h1>
           </div>
+          
           <div className='m-1 xl:m-2 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
             <img src={js} alt="JavaScript Icon" className="xl:w-36"/>
             <h1 className='text-center text-white text-lg font-montserrat'>JAVASCRIPT</h1>
@@ -45,6 +47,10 @@ function Skills() {
             <img src={sql} alt="MySql Icon" className="xl:w-36" />
             <h1 className='text-center text-white text-sm font-montserrat'>MYSQL</h1>
           </div> 
+          <div className='m-1 xl:m-2 shadow-xl rounded-xl p-2 flex items-center flex-col hover:scale-[1.1] ease-in-out duration-300'>
+            <img src={vue} alt="VueJs Icon" className='xl:w-36' />
+            <h1 className='text-center text-white text-lg font-montserrat'>VUE JS</h1>
+          </div>
             
         </div>
         <div className='flex flex-wrap justify-center mt-1  '>
