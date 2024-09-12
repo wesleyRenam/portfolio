@@ -65,6 +65,12 @@ module.exports = {
         typingMobile: "typingMobile 5s steps(50) infinite alternate, blink .7s infinite",
         text: 'text 6s ease infinite', 
       },
+      screens: {
+        'tablet': '640px',  // Adiciona um breakpoint para tablets
+        'laptop': '1024px', // Adiciona um breakpoint para notebooks
+        'desktop': '1280px' // Adiciona um breakpoint para desktops grandes
+      },
+
     },
   },
   plugins: [],
